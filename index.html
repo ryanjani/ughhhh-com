@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <marquee behavior="alternate" scrollamount="10">
-    <h1>HELLO BUDDY</h1>
-</marquee>
   <title>Welcome to UGHHHH.com</title>
   <style>
     body {
@@ -15,6 +12,8 @@
     h1 {
       color: #32a852; /* Bright green header */
       text-shadow: 1px 1px 0px #000000; /* Slight shadow */
+      font-size: 2.5em; /* Adjusted size for consistency */
+      margin: 10px;
     }
     a {
       color: #0000ff; /* Blue links */
@@ -29,23 +28,43 @@
       padding: 20px;
       max-width: 600px;
       background: #ffffff; /* White content box */
+      box-shadow: 5px 5px 15px #888888; /* Retro shadow effect */
+    }
+    .center {
+      display: block;
+      margin: 20px auto;
+      max-width: 100%;
+      height: auto;
+    }
+    marquee h1 {
+      margin: 0; /* Remove margin inside marquee */
     }
   </style>
 </head>
 <body>
+  <!-- Animated marquee with flashing text -->
+  <marquee behavior="alternate" scrollamount="10">
+    <h1>HELLO BUDDY</h1>
+  </marquee>
+
   <div class="container">
     <h1>Welcome to UGHHHH.com</h1>
     <p>Please enjoy your visit.</p>
     <hr>
     <p>© 2025 ughhhh.com | <a href="mailto:webmaster@ughhhh.com">Contact Us</a></p>
   </div>
-  
-  <!-- hitwebcounter Code START -->
-<a href="https://www.hitwebcounter.com" target="_blank">
-<img src="https://hitwebcounter.com/counter/counter.php?page=18557964&style=0012&nbdigits=5&type=page&initCount=0" title="Counter Widget" Alt="Visit counter For Websites"   border="0" /></a>    
-<div></div>
-<img src=
-"https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZGxycDluYWh3YXBuZnRmb2VuMTNuOGdlZms3Yjk5NGtxN3Q4ODh6bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/117FHDNGAJmVTG/giphy.gif" class="center">
-                                    
+
+  <!-- Hit counter -->
+  <a href="https://www.hitwebcounter.com" target="_blank">
+    <img src="https://hitwebcounter.com/counter/counter.php?page=18557964&style=0012&nbdigits=5&type=page&initCount=0" 
+         title="Counter Widget" 
+         alt="Visit counter For Websites" 
+         border="0" />
+  </a>
+
+  <!-- GIF for extra fun -->
+  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZGxycDluYWh3YXBuZnRmb2VuMTNuOGdlZms3Yjk5NGtxN3Q4ODh6bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/117FHDNGAJmVTG/giphy.gif" 
+       alt="Retro GIF" 
+       class="center">
 </body>
 </html>
